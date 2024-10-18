@@ -27,7 +27,7 @@ puts:
 
     jmp .loop
 
-.done
+.done:
     pop ax
     pop si
     ret
